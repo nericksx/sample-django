@@ -5,7 +5,7 @@ services:
     repo: nericksx/sample-django
     branch: static
     deploy_on_push: true
-  run_command: gunicorn --worker-tmp-dir /dev/shm mysite.wsgi
+  run_command: gunicorn --worker-tmp-dir /dev/shm core.wsgi
   envs:
   - key: DISABLE_COLLECTSTATIC
     value: "1"

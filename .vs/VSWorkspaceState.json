@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.do",
+    "\\mysite"
   ],
-  "SelectedNode": "\\manage.py",
+  "SelectedNode": "\\mysite\\settings.py",
   "PreviewInSolutionExplorer": false
 }
